@@ -1,6 +1,22 @@
+
 # Sistema de Planejamento de Caminhos
 
 Este projeto foi desenvolvido por Washington, Nirvan e Carlos na disciplina de Robótica da Universidade Estadual de Feira de Santana (UEFS). O objetivo do projeto é criar um sistema de planejamento de caminhos para um robô, utilizando uma interface gráfica para controle e visualização. O caminho foi gerado aplicando os Campos de Potenciais.
+
+## Descrição do Ambiente
+
+O local onde o robô se movimenta é um ambiente estruturado. Neste tipo de espaço, pode-se fazer uso de mapas baseados na planta do prédio. A figura 1 ilustra um exemplo do espaço de armazenamento. O robô inicialmente está carregado e deve se deslocar para deixar sua carga em uma das estações existentes no mapa da figura 1. Ele deve ser capaz de se locomover seguindo uma trajetória previamente calculada. Deste modo, a equipe Runaway Desenvolvimento foi destacada para projetar e implementar um sistema de planejamento e navegação do robô.
+
+### Restrições do Projeto
+
+Devido à configuração da indústria e da plataforma robótica disponível, o projeto apresenta as seguintes restrições:
+- O sistema de geração de trajetória deverá ser desenvolvido em computador externo ao robô;
+- Inicialmente se conhece o mapa do ambiente e a posição do robô;
+- O usuário arbitra a posição inicial do robô;
+- A posição final deve ser dentro de uma das estações;
+- O programa desenvolvido deverá ser capaz de colocar obstáculos virtuais no espaço de trabalho;
+- Caso o robô encontre um obstáculo sobre a trajetória planejada, ele deve desviar e retornar à trajetória;
+- O robô executa uma trajetória recebida por meio de comunicação sem fio.
 
 ## Estrutura do Projeto
 
